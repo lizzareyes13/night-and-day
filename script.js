@@ -1,10 +1,12 @@
 $("#orb").on("click", function(){
-  if ( $("#orb").hasClass(".day") ){
-      $("#orb").removeClass(".day").addClass(".night");
+  if ( $("#orb").hasClass("sun") ){
+      $("#orb").removeClass("sun").addClass("moon");
+      $("#sky").removeClass("day").addClass("night");
 
     }
     else {
-      $("#orb").removeClass(".night").addClass(".day");
+      $("#orb").removeClass("moon").addClass("sun");
+      $("#sky").removeClass("night").addClass("day");
     }
 
 

@@ -17,12 +17,13 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  transition: all 1s;
 }
 .day{
   background-color: #9E9BDB;
 }
 .night{
-  background-color: #black;
+  background-color: #000000;
 }
 .sun{
 background-color: #FD0;
